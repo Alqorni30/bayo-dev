@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.active{
+    @apply bg-gray-500 hover:bg-gray-400 text-white p-2 cursor-pointer rounded
+}
