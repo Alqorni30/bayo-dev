@@ -6,7 +6,6 @@ import { FcApproval } from "react-icons/fc";
 import { BiSolidHome } from "react-icons/bi";
 import { GoProjectSymlink } from "react-icons/go";
 import { AiOutlineSolution } from "react-icons/ai";
-import { FaIdBadge } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import DarkModeToggle from "./DarkModeToggle";
 

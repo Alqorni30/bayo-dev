@@ -65,7 +65,7 @@ const Sidebar = () => {
         <div className="text-black dark:text-white">
           <hr className="mt-4 border-1 border-black hidden md:block dark:border-slate-400" />
           <p className="mt-5 text-center text-sm hidden md:block">
-            &copy; 2023 Copyright By <strong>Alqorni Bayo</strong>
+            &copy; 2023 Copyright By <strong> Alqorni Bayo</strong>
           </p>
         </div>
       </div>

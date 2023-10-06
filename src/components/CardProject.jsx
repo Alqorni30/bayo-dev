@@ -86,7 +86,7 @@ const CardProject = (props) => {
               </a>
             </div>
           </div>
-          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:hidden">
             <a href=" https://alqorni30.github.io/landingpage-Tailwindcss/" target="_blank">
               <img className="rounded-t-lg w-full" src={nft} alt="Umkm" width={300} />
             </a>
@@ -108,7 +108,7 @@ const CardProject = (props) => {
               </a>
             </div>
           </div>
-          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:hidden">
             <a href="https://portfolio-alqorni.vercel.app/" target="_blank">
               <img className="rounded-t-lg w-full" src={portofolio} alt="portofolio" width={300} />
             </a>
@@ -130,7 +130,7 @@ const CardProject = (props) => {
               </a>
             </div>
           </div>
-          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:hidden">
             <a href="https://gallery-bayo.vercel.app/" target="_blank">
               <img className="rounded-t-lg w-full" src={gallery} alt="gallery" width={300} />
             </a>
@@ -152,7 +152,7 @@ const CardProject = (props) => {
               </a>
             </div>
           </div>
-          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:hidden">
             <a href="https://bayocrisypy.netlify.app/" target="_blank">
               <img className="rounded-t-lg w-full" src={movie} alt="movie" width={300} />
             </a>
