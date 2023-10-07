@@ -29,7 +29,7 @@ const DarkModeToggle = () => {
       <div>
         <button
           onClick={toggleDarkMode}
-          className="bg-gray-800 hover:bg-gray-600 text-white p-2 rounded-full mr-4 md:mr-0 text-lg md:bottom-2 md:right-4 md:absolute cursor-pointer" 
+          className="bg-gray-800 hover:bg-gray-600 text-white p-2 rounded-full mr-4 lg:mr-0 text-lg lg:bottom-2 lg:right-4 lg:absolute cursor-pointer" 
         >
           {isDarkMode ? <BsFillSunFill/> : <BsFillMoonStarsFill/>}
         </button>

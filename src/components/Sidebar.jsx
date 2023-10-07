@@ -7,11 +7,13 @@ import { AiOutlineSolution } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import FooterSidebar from "./FooterSidebar";
 import DarkModeToggle from "./DarkModeToggle";
+import "animate.css/animate.min.css";
+
 
 const Sidebar = () => {
   return (
     <>
-      <div className="dark:bg-gray-800 bg-slate-200  h-screen w-64  flex-shrink-0 top-0 sticky hidden md:block">
+      <div className="dark:bg-gray-800 bg-slate-200  h-screen w-64  flex-shrink-0 top-0 sticky hidden lg:block">
         <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  rounded-b-lg h-[110px] relative z-10">
           <p className="text-center text-base font-semibold text-black p-3">
             Welcome
@@ -24,7 +26,7 @@ const Sidebar = () => {
             alt="foto bayo"
             width={80}
             height={50}
-            className=" z-20 border-solid border-2 border-black dark:border-white rounded-full mb-3"
+            className=" z-20 border-solid border-2 border-black dark:border-white rounded-full mb-3 animate__animated animate__fadeIn"
           />
           <h5 className="font-semibold flex justify-center items-center gap-2">
             Alqorni Bayo <FcApproval className="text-xl" />
@@ -62,9 +64,9 @@ const Sidebar = () => {
         </ul>
         <hr className="mt-2 border-1 border-black dark:border-slate-400" />
         <FooterSidebar />
-        <div className="text-black dark:text-white">
-          <hr className="mt-4 border-1 border-black hidden md:block dark:border-slate-400" />
-          <p className="mt-5 text-center text-sm hidden md:block">
+        <hr className="mt-4 border-1 border-black hidden md:block dark:border-slate-400" />
+        <div className=" mt-4 text-black dark:text-white">
+          <p className="px-4 text-sm text-center bottom-3 absolute ">
             &copy; 2023 Copyright By <strong> Alqorni Bayo</strong>
           </p>
         </div>

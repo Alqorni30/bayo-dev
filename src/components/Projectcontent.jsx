@@ -15,7 +15,7 @@ const Projectcontent = () => {
             the field of web development.
           </p>
           <hr className="mt-4 border-1 border-black dark:border-slate-400" />
-          <CardProject tittle={"Projects"} />
+          <CardProject />
         </div>
       </div>
     </>
