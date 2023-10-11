@@ -5,7 +5,6 @@ import cv from "../assets/Cv/AlqorniCV.pdf";
 import FooterSidebar from "./FooterSidebar";
 import "animate.css/animate.min.css";
 import CardLastProject from "./CardLastProject";
-import { AiOutlineProject } from "react-icons/ai";
 
 const HomeContent = () => {
   return (
@@ -38,14 +37,7 @@ const HomeContent = () => {
         </div>
         <hr className="mt-4 border-1 border-black dark:border-slate-400" />
         <Skills />
-        <div className="mt-4">
-          <h6 className="flex items-center gap-2 font-semibold mb-6">
-            <AiOutlineProject className="text-lg" /> Lattest Projects
-          </h6>
-          <div className="flex flex-wrap gap-4 justify-center animate__animated animate__fadeInUp">
-            <CardLastProject/>
-          </div>
-        </div>
+        <CardLastProject />
       </div>
     </>
   );
