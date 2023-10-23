@@ -6,6 +6,7 @@ import course from "../assets/projects/Course.png";
 import bimbel from "../assets/projects/Bimbel.png";
 import umkm from "../assets/projects/Umkm.png";
 import notes from "../assets/projects/notesapp.png";
+import manga from "../assets/projects/manga.png"
 import react from "../assets/react.svg";
 
 
@@ -219,6 +220,23 @@ export const lattestProject = [
     },
     {
         id: 2,
+        image: manga,
+        alt: "manga",
+        title: "Wibu.id",
+        desc: "All Manga with Jikan Api",
+        tech1: react,
+        alt1: "react", 
+        tech2: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+        alt2: "tailwind",
+        tech3: "https://vitejs.dev/logo.svg",
+        alt3: "viteJs",
+        tech4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+        alt4: "javascript",
+        link: "https://web-course-reactvitejs.netlify.app//",
+        preview: "Preview"
+    },
+    {
+        id: 3,
         image: course,
         alt: "course",
         title: "Course online",
@@ -235,7 +253,7 @@ export const lattestProject = [
         preview: "Preview"
     },
     {
-        id: 3,
+        id: 4,
         image: bimbel,
         alt: "bimbel",
         title: "Bimbel Allclass",

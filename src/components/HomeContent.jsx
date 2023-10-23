@@ -1,7 +1,7 @@
 import React from "react";
 import { BsDownload } from "react-icons/bs";
 import Skills from "./Skills";
-import cv from "../assets/Cv/AlqorniCV.pdf";
+import cv from "../assets/Cv/CV-Alqorni.pdf";
 import FooterSidebar from "./FooterSidebar";
 import "animate.css/animate.min.css";
 import CardLastProject from "./CardLastProject";
