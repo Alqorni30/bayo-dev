@@ -30,6 +30,23 @@ export const allProject = [
     },
     {
         id: 2,
+        image: manga,
+        alt: "manga",
+        title: "Wibu.id",
+        desc: "All Manga with Jikan Api",
+        tech1: react,
+        alt1: "react", 
+        tech2: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+        alt2: "tailwind",
+        tech3: "https://vitejs.dev/logo.svg",
+        alt3: "viteJs",
+        tech4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+        alt4: "javascript",
+        link: "https://manga-api-bayo.vercel.app/",
+        preview: "Preview"
+    },
+    {
+        id: 3,
         image: course,
         alt: "course",
         title: "Course online",
@@ -44,7 +61,7 @@ export const allProject = [
         preview: "Preview"
     },
     {
-        id: 3,
+        id: 4,
         image: bimbel,
         alt: "bimbel",
         title: "Bimbel Allclass",
@@ -61,7 +78,7 @@ export const allProject = [
         preview: "Preview"
     },
     {
-        id: 4,
+        id: 5,
         image: umkm,
         alt: "umkm",
         title: "Crispy.Id",
@@ -76,7 +93,7 @@ export const allProject = [
         preview: "Preview"
     },
     {
-        id: 5,
+        id: 6,
         image: nft,
         alt: "nft",
         title: "Tweak AI",
@@ -91,7 +108,7 @@ export const allProject = [
         preview: "Preview"
     },
     {
-        id: 6,
+        id: 7,
         image: portofolio,
         alt: "portofolio",
         title: "Portofolio",
@@ -106,7 +123,7 @@ export const allProject = [
         preview: "Preview"
     },
     {
-        id: 7,
+        id: 8,
         image: gallery,
         alt: "gallery",
         title: "My Gallery Web",
@@ -121,7 +138,7 @@ export const allProject = [
         preview: "Preview"
     },
     {
-        id: 8,
+        id: 9,
         image: movie,
         alt: "movie",
         title: "Bayo film",
@@ -232,7 +249,7 @@ export const lattestProject = [
         alt3: "viteJs",
         tech4: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
         alt4: "javascript",
-        link: "https://web-course-reactvitejs.netlify.app//",
+        link: "https://manga-api-bayo.vercel.app/",
         preview: "Preview"
     },
     {
