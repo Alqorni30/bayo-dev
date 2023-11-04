@@ -4,6 +4,8 @@ import 'animate.css/animate.min.css';
 import { allProject } from "../data";
 
 const CardProject = () => {
+  // Balik urutan array allProject
+  const reversedProjects = [...allProject].reverse();
 
   return (
     <>
@@ -12,7 +14,7 @@ const CardProject = () => {
           <AiOutlineProject className="text-lg"/> Projects
         </h6>
         <div className="flex flex-wrap gap-4 justify-center animate__animated animate__fadeInUp">
-        {allProject.map((all) => {
+          {reversedProjects.map((all) => {
             if (all.image) {
               return (
                 <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={all.title}>
@@ -43,7 +45,7 @@ const CardProject = () => {
                       <a
                         href={all.link}
                         target="_blank"
-                        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
+                        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover-bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800"
                       >
                         {all.preview}
                       </a>

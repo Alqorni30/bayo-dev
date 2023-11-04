@@ -54,7 +54,7 @@ const Sidebar = () => {
           </li>
           <button className="mt-3">
             <a
-              href="https://api.whatsapp.com/send?phone=6285841876273&text=Hi%20Vinn"
+              href="https://api.whatsapp.com/send?phone=6285809227443&text=Hi%20Vinn"
               target="_blank"
               className="flex items-center gap-2 py-3 px-4 text-white text-sm rounded-lg bg-indigo-600 font-semibold hover:bg-indigo-700"
             >

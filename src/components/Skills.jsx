@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <div className="mt-4 w-full">
-        <h6 className="flex items-center text-lg gap-2 font-semibold mb-6">
+        <h6 className="flex items-center text-lg gap-2 font-semibold mb-4">
           <BiCodeAlt /> Skills
         </h6>
         <div className="flex flex-wrap gap-3 container">

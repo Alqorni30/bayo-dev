@@ -19,7 +19,7 @@ const HomeContent = () => {
           </p>
           <FooterSidebar />
           <p className="w-full leading-6 mb-4 text-gray-700 dark:text-gray-400">
-            I am a Junior Frontend Web Developer who has a passion for Web
+            I am a <span className="text-indigo-600 dark:text-indigo-400 font-semibold">Junior Frontend Web Developer</span> who has a passion for Web
             Development, one of my life mottos is "Don't rush the process, trust
             that great things take time" which means don't rush the process,
             believe that great things take time.

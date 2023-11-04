@@ -1,16 +1,20 @@
 import React from "react";
 import { AiOutlineProject } from "react-icons/ai";
-import { lattestProject } from "../data";
+import { allProject } from "../data";
 
 const CardLastProject = () => {
+  // Mengambil 4 elemen terakhir dari array allProject
+  // Balik urutan array lattestProject dan ambil 4 elemen pertama
+  const lastFourProjects = [...allProject].reverse().slice(0, 4);
+
   return (
     <>
       <div className="mt-4">
         <h6 className="flex items-center gap-2 font-semibold mb-6">
-          <AiOutlineProject className="text-lg" /> Lattest Projects
+          <AiOutlineProject className="text-lg" /> Latest Projects
         </h6>
         <div className="flex flex-wrap gap-4 justify-center animate__animated animate__fadeInUp">
-          {lattestProject.map((latest) => {
+          {lastFourProjects.map((latest) => {
             if (latest.image) {
               return (
                 <div
