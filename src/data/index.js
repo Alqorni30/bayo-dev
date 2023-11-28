@@ -43,7 +43,7 @@ export const allProject = [
         tech3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
         alt3: "javascript",
         link: "https://bayocrisypy.netlify.app/",
-        prev3ew: "Preview"
+        preview: "Preview"
     },
     {
         id: 6,
@@ -72,7 +72,7 @@ export const allProject = [
         alt2: "tailwind",
         tech3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
         alt3: "javascript",
-        link: "https://portfolio-alqorni.vercel.app/",
+        link: "https://portofolio-alqorni.vercel.app/",
         preview: "Preview"
     },
     {
