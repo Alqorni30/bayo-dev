@@ -17,7 +17,7 @@ const Skills = () => {
                 src={skill.techImage}
                 alt={skill.techAlt}
                 width="50"
-                className="bg-slate-200 rounded-full p-1"
+                className="bg-slate-200 rounded-lg p-1"
                 height="50"
               />
             );

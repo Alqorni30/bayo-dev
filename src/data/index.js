@@ -221,7 +221,7 @@ export const allProject = [
     alt2: "typescript",
     tech3: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
     alt3: "tailwind",
-    link: "https://web-lkg.netlify.app/",
+    link: "https://web-lkg.vercel.app/",
     preview: "Preview",
   },
 ];
@@ -235,8 +235,9 @@ export const iconSkills = [
   },
   {
     id: 2,
-    techImage: react,
-    tectAlt: "react",
+    techImage: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    tectAlt: "nextJs",
+    
   },
   {
     id: 3,
@@ -245,8 +246,8 @@ export const iconSkills = [
   },
   {
     id: 4,
-    techImage: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
-    tectAlt: "nextJs",
+    techImage: react,
+    tectAlt: "react",
   },
   {
     id: 5,
@@ -295,5 +296,11 @@ export const iconSkills = [
     techImage:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
     tectAlt: "mysql",
+  },
+  {
+    id: 13,
+    techImage:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
+    tectAlt: "postgresql",
   },
 ];
