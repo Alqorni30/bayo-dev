@@ -4,7 +4,7 @@ import Skills from "./Skills";
 import FooterSidebar from "./FooterSidebar";
 import "animate.css/animate.min.css";
 import CardLastProject from "./CardLastProject";
-import cv from "../assets//cv/Alqorni_CV.pdf"
+import cv from "../assets/cv/CV.Hervinsa.pdf";
 
 const HomeContent = () => {
   return (

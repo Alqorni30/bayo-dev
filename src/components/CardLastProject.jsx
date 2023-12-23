@@ -41,6 +41,7 @@ const CardLastProject = () => {
                     <div className="flex gap-3 mb-4 p-2 rounded-xl">
                       {latest.tech1 && (
                         <img
+                          className="bg-slate-200 rounded-lg p-1"
                           src={latest.tech1}
                           alt={latest.alt1}
                           width="30"
@@ -49,6 +50,7 @@ const CardLastProject = () => {
                       )}
                       {latest.tech2 && (
                         <img
+                          className="bg-slate-200 rounded-lg p-1"
                           src={latest.tech2}
                           alt={latest.alt2}
                           width="30"
@@ -57,6 +59,7 @@ const CardLastProject = () => {
                       )}
                       {latest.tech3 && (
                         <img
+                          className="bg-slate-200 rounded-lg p-1"
                           src={latest.tech3}
                           alt={latest.alt3}
                           width="30"
@@ -65,6 +68,7 @@ const CardLastProject = () => {
                       )}
                       {latest.tech4 && (
                         <img
+                          className="bg-slate-200 rounded-lg p-1"
                           src={latest.tech4}
                           alt={latest.alt4}
                           width="30"

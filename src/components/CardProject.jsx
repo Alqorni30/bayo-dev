@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineProject } from "react-icons/ai";
-import 'animate.css/animate.min.css';
+import "animate.css/animate.min.css";
 import { allProject } from "../data";
 
 const CardProject = () => {
@@ -11,13 +11,16 @@ const CardProject = () => {
     <>
       <div className="mt-4">
         <h6 className="flex items-center gap-2 font-semibold mb-6">
-          <AiOutlineProject className="text-lg"/> Projects
+          <AiOutlineProject className="text-lg" /> Projects
         </h6>
         <div className="flex flex-wrap gap-4 justify-center animate__animated animate__fadeInUp">
           {reversedProjects.map((all) => {
             if (all.image) {
               return (
-                <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={all.title}>
+                <div
+                  className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                  key={all.title}
+                >
                   <div>
                     <img
                       className="rounded-t-lg w-full"
@@ -36,10 +39,42 @@ const CardProject = () => {
                       </p>
                     </div>
                     <div className="flex gap-3 mb-4 p-2 rounded-xl">
-                      {all.tech1 && <img src={all.tech1} alt={all.alt1} width="30" height="30" />}
-                      {all.tech2 && <img src={all.tech2} alt={all.alt2} width="30" height="30" />}
-                      {all.tech3 && <img src={all.tech3} alt={all.alt3} width="30" height="30" />}
-                      {all.tech4 && <img src={all.tech4} alt={all.alt4} width="30" height="30" />}
+                      {all.tech1 && (
+                        <img
+                          className="bg-slate-200 rounded-lg p-1"
+                          src={all.tech1}
+                          alt={all.alt1}
+                          width="30"
+                          height="30"
+                        />
+                      )}
+                      {all.tech2 && (
+                        <img
+                          className="bg-slate-200 rounded-lg p-1"
+                          src={all.tech2}
+                          alt={all.alt2}
+                          width="30"
+                          height="30"
+                        />
+                      )}
+                      {all.tech3 && (
+                        <img
+                          className="bg-slate-200 rounded-lg p-1"
+                          src={all.tech3}
+                          alt={all.alt3}
+                          width="30"
+                          height="30"
+                        />
+                      )}
+                      {all.tech4 && (
+                        <img
+                          className="bg-slate-200 rounded-lg p-1"
+                          src={all.tech4}
+                          alt={all.alt4}
+                          width="30"
+                          height="30"
+                        />
+                      )}
                     </div>
                     <button>
                       <a
