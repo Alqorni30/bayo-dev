@@ -11,7 +11,7 @@ const HomeContent = () => {
     <>
       <div className="p-8 bg-slate-100  w-full min-h-screen dark:bg-gray-700 dark:text-white ">
         <div className="container ">
-          <h1 className="font-bold text-3xl md:text-4xl mb-2 animate__animated animate__fadeInUp">
+          <h1 className="font-bold text-[22px] md:text-4xl mb-2 animate__animated animate__fadeInUp">
             Hi There 👋, I'm Alqorni🤝
           </h1>
           <p className="font-semibold mb-4 animate__animated animate__fadeInUp">

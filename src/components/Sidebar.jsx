@@ -9,8 +9,9 @@ import FooterSidebar from "./FooterSidebar";
 import DarkModeToggle from "./DarkModeToggle";
 import "animate.css/animate.min.css";
 
-
 const Sidebar = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <div className="dark:bg-gray-800 bg-slate-200  h-screen w-64  flex-shrink-0 top-0 sticky hidden lg:block">
@@ -67,7 +68,7 @@ const Sidebar = () => {
         <hr className="mt-4 border-1 border-black hidden md:block dark:border-slate-400" />
         <div className=" mt-4 text-black dark:text-white">
           <p className="px-4 text-sm text-center bottom-3 absolute ">
-            &copy; 2023 Copyright By <strong> Alqorni Bayo</strong>
+            &copy; {currentYear} Copyright By <strong> Alqorni Bayo</strong>
           </p>
         </div>
       </div>
