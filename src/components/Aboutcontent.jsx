@@ -8,7 +8,7 @@ const Aboutcontent = () => {
           <h1 className="font-bold text-2xl text-center md:text-4xl mb-2 dark:text-white">
             About Me
           </h1>
-          <p className="text-center dark:text-white">Short stroy about me.</p>
+          <p className="text-center dark:text-white">Short story about me.</p>
           <hr className="mt-4 border-1 border-black dark:border-slate-400" />
           <div className="leading-8 mt-4 space-y-5 text-gray-700 dark:text-gray-400">
             <p >
