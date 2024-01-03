@@ -66,7 +66,7 @@ const Sidebar = () => {
         <hr className="mt-2 border-1 border-black dark:border-slate-400" />
         <FooterSidebar />
         <hr className="mt-4 border-1 border-black hidden md:block dark:border-slate-400" />
-        <div className=" mt-4 text-black dark:text-white">
+        <div className=" text-black dark:text-white">
           <p className="px-4 text-sm text-center bottom-3 absolute ">
             &copy; {currentYear} Copyright By <strong> Alqorni Bayo</strong>
           </p>

@@ -187,7 +187,7 @@ export const allProject = [
     alt3: "viteJs",
     tech4: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
     alt4: "tailwind",
-    link: "https://notes-app-amber-two.vercel.app/",
+    link: "https://notes-app-bayo.vercel.app/",
     preview: "Preview",
   },
   {
