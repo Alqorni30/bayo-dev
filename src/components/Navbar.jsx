@@ -49,19 +49,19 @@ const Navbar = () => {
 
           {menuOpen && (
             <ul className="lg:hidden flex  flex-col space-y-4 mt-4 text-white ">
-              <li className="hover:bg-gray-500 cursor-pointer rounded">
+              <li className="hover:bg-gray-500 cursor-pointer rounded p-2">
                 <Link to="/" className="flex items-center gap-2">
                   <BiSolidHome /> Home
                 </Link>
               </li>
               <li className="hover:bg-gray-500 cursor-pointer rounded">
-                <Link to="/about" className="flex items-center gap-2">
+                <Link to="/about" className="flex items-center gap-2 p-2">
                   <AiOutlineSolution />
                   About
                 </Link>
               </li>
               <li className="hover:bg-gray-500 cursor-pointer rounded">
-                <Link to="/projects" className="flex items-center gap-2">
+                <Link to="/projects" className="flex items-center gap-2 p-2">
                   <GoProjectSymlink />
                   Project
                 </Link>
