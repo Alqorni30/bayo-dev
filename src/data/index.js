@@ -292,15 +292,27 @@ export const iconSkills = [
     tectAlt: "php",
   },
   {
-    id: 12,
+    id: 13,
+    techImage:
+      "https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png",
+    tectAlt: "laravel",
+  },
+  {
+    id: 14,
     techImage:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
     tectAlt: "mysql",
   },
   {
-    id: 13,
+    id: 15,
     techImage:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
     tectAlt: "postgresql",
+  },
+  {
+    id: 16,
+    techImage:
+      "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png",
+    tectAlt: "prisma",
   },
 ];
